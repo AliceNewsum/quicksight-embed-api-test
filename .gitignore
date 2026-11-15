@@ -2,6 +2,12 @@
 old/
 results/
 
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+crash.log
+
 # Dependencies
 node_modules/
 vendor/
